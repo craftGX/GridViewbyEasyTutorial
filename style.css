@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    margin: 20px auto;
+    text-align: center;
+}
+.header h1{
+    padding: 10px 0;
+}
+.icons{
+    background: #cf21c1;
+    margin: 30px auto;
+}
+.fa{
+    margin: 5px 10px;
+    /* font-size: 25px !important; */
+    cursor: pointer;
+    width: 25px;
+}
+.fa:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+#column1,#column2,#column3,#column4{
+    width: 25%;
+}
+img{
+    width: 98%;
+    padding: 1%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
